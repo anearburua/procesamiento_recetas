@@ -2,7 +2,7 @@
 import nltk
 
 # Tokenización
-#nltk.download('punkt')
+nltk.download('punkt')
 from nltk import word_tokenize
 
 # Etiquetado
@@ -15,7 +15,7 @@ from nltk.chunk.regexp import *
 from nltk import Tree, FreqDist
 
 # Preprocesación
-#nltk.download('stopwords')
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 spanish_stops = stopwords.words('spanish')
